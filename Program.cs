@@ -50,7 +50,7 @@ namespace OpenRepo
 
                         handler = GetGitPath();
                         commandLine = "clone " + split[0] + " " + GetClonePath(split[0]);
-                        useShellExecute = false;
+                        useShellExecute = useShellExecute;
                         break;
                 }
 
@@ -59,7 +59,7 @@ namespace OpenRepo
                     UseShellExecute = useShellExecute,
                     FileName = handler,
                     Arguments = commandLine,
-                    RedirectStandardOutput = true
+                    RedirectStandardOutput = false
                 };
 
                 Process.Start(info);
