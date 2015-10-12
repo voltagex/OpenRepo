@@ -6,4 +6,4 @@ Run `openrepo.exe /register-github`. Then you should be able to open github-wind
 
 ## I need a favour
 This would work a lot better, especially on Windows 10, if it was a signed executable. Codesigning certificates cost a fair bit. 
-[Donate bitcoin](bitcoin:1DSPDkSUtv4UyZLPw9Nkgdf6VJFR1cN8Uu)                , or see my [Support page](http://blog.voltagex.org/support-me/) for other ways to help me out
+[Donate bitcoin to 1DSPDkSUtv4UyZLPw9Nkgdf6VJFR1cN8Uu](bitcoin://1DSPDkSUtv4UyZLPw9Nkgdf6VJFR1cN8Uu), or see my [Support page](http://blog.voltagex.org/support-me/) for other ways to help me out
