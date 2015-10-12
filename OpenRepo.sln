@@ -1,7 +1,13 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2012
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OpenRepo", "OpenRepo.csproj", "{6FF66872-9798-4175-A802-5849AA1E662D}"
+# Visual Studio 14
+VisualStudioVersion = 14.0.23107.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OpenRepo", "OpenRepo\OpenRepo.csproj", "{6FF66872-9798-4175-A802-5849AA1E662D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OpenRepo.Handler", "OpenRepo.HandlerRegistration\OpenRepo.Handler.csproj", "{4998A74A-6AAD-44D1-A3FA-ADCDF024E74D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OpenRepo.Tests", "OpenRepo.Tests\OpenRepo.Tests.csproj", "{7D674046-A6D3-48A5-89F8-A42BA7A22CD3}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -13,6 +19,14 @@ Global
 		{6FF66872-9798-4175-A802-5849AA1E662D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6FF66872-9798-4175-A802-5849AA1E662D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6FF66872-9798-4175-A802-5849AA1E662D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4998A74A-6AAD-44D1-A3FA-ADCDF024E74D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4998A74A-6AAD-44D1-A3FA-ADCDF024E74D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4998A74A-6AAD-44D1-A3FA-ADCDF024E74D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4998A74A-6AAD-44D1-A3FA-ADCDF024E74D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7D674046-A6D3-48A5-89F8-A42BA7A22CD3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7D674046-A6D3-48A5-89F8-A42BA7A22CD3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7D674046-A6D3-48A5-89F8-A42BA7A22CD3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7D674046-A6D3-48A5-89F8-A42BA7A22CD3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
